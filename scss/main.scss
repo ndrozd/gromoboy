@@ -1,0 +1,95 @@
+
+@font-face {
+  font-family: 'GillSans';
+  src: url('../fonts/GillSansC-Bold_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GillSansC-Bold_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GillSansC-Bold_0.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GillSansC-Bold_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GillSansC-Bold_0.svg#9062e592ed0e475ab3008f4faf50a7db') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'GillSans';
+  src: url('../fonts/GillSansC-Italic_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GillSansC-Italic_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GillSansC-Italic_0.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GillSansC-Italic_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GillSansC-Italic_0.svg#40c3d7f1d33ee80eac477f6f101f8b69') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GillSans';
+  src: url('../fonts/GillSansC_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GillSansC_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GillSansC_0.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GillSansC_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GillSansC_0.svg#70637c5addb3954a784141b26be833e6') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GillSans';
+  src: url('../fonts/GillSansLightC_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GillSansLightC_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GillSansLightC_0.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GillSansLightC_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GillSansLightC_0.svg#8b91ceef46ce47f55bea57feada2438e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.container {
+  @extend .cf;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: GillSans;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  background: black;
+  color: white;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box !important;
+}
+img {
+  max-width: 100%;
+}
