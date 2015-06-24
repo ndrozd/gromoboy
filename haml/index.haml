@@ -1,13 +1,142 @@
 !!! 5
 %html
   %head
-    %title Title
-    %meta(charset="utf-8")
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    %link(rel="stylesheet" href="css/base.css")
-    %link(rel="stylesheet" href="css/style.css")
+  %title Title
+  %meta(charset="utf-8")
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  %link(rel="stylesheet" href="css/base.css")
+  %link(rel="stylesheet" href="css/style.css")
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin-ext,latin' rel='stylesheet' type='text/css'>
   %body
-             
-    %script(src="//code.jquery.com/jquery-1.11.2.min.js")
-    %script(src="js/plugins.min.js")
-    %script(src="js/script.js")
+    %header.header
+      .container
+        .logo
+          %img(src="images/logo.svg")
+        .nd-right-nav
+          .one
+            %a.strong.uppercase(href="#") Plans
+          .one
+            %a.nd-roundimage-wrap(href="#")
+              %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+    .nd-switcher-wrap.can-animate.active
+      .bg-accent
+        .container.nd-switcher
+          .nd-switcher-label
+            %span.nd-switcher-heading Cleaner
+            %span.nd-switcher-status
+              %span.on Running
+              %span.off Stopped
+          .nd-switch
+            %label
+              %input(type="checkbox" checked="checked")
+              %div.nd-switch-el
+      .nd-switcher-group
+        .one.can-animate.active
+          .container
+            .nd-switcher-label
+              %span.letter S
+              .heading 
+                %span Spam filter
+                .sub Removes filthy comments Does a great job always Another describtion
+            .nd-switch.small.colored
+              %label
+                %input(type="checkbox" checked="checked")
+                %div.nd-switch-el
+        .one.can-animate.unactive
+          .container
+            .nd-switcher-label
+              %span.letter F
+              .heading 
+                %span Fpam filter
+            .nd-switch.small.colored
+              %label
+                %input(type="checkbox")
+                %div.nd-switch-el
+        .one
+          .container
+            .nd-switcher-edit.left
+              %a(href="#") Edit
+            .nd-switcher-edit.right
+              %a(href="#") New
+
+    .nd-switcher-wrap.can-animate.unactive
+      .bg-accent
+        .container.nd-switcher
+          .nd-switcher-label
+            %span.nd-switcher-heading Cleaner
+            %span.nd-switcher-status
+              %span.on Running
+              %span.off Stopped
+          .nd-switch
+            %label
+              %input(type="checkbox")
+              %div.nd-switch-el
+
+    .nd-machinelearn.js-toggleactive
+      .container
+        %img(src="images/robot.svg")
+        .nd-machinelearn-descr
+          .heading Machine learning
+          .des We have developed a unique system which lets our robots learn what to clean while working
+        .icon.purple.ic-reveal
+    .white-cont
+      .nd-tabs
+        .nd-tabs-control
+          .nd-tabs-control-one.active
+            .icon.purple.ic-content
+            %span Content
+          .nd-tabs-control-one
+            .icon.purple.ic-cleaned
+            %span Cleaned comments
+          .nd-tabs-control-one
+            .icon.purple.ic-blocked
+            %span Blocked users
+          .bord-bottom
+        .nd-tabs-content
+          .nd-tabs-content-one
+            .container
+              .nd-tabs
+                .nd-tabs-control
+                  .nd-tabs-control-one.active
+                    .icon.purple.ic-list
+                  .nd-tabs-control-one
+                    .icon.purple.ic-photos
+                  .bord-bottom
+              .nd-tabs-content
+                .nd-tabs-content-one
+                  .nd-listimages
+                    %a.nd-listimages-one(href="#")
+                      %img(src="http://placehold.it/290")
+                      .comments-count
+                        .icon.purple.ic-comments
+                        %span 9 
+                    %a.nd-listimages-one(href="#")
+                      %img(src="http://placehold.it/290")
+                      .comments-count
+                        .icon.purple.ic-comments
+                        %span 9 
+                    %a.nd-listimages-one(href="#")
+                      %img(src="http://placehold.it/290")
+                      .comments-count
+                        .icon.purple.ic-comments
+                        %span 9 
+    %footer.footer
+      .container
+        .footer-el
+          %a(href="#") F.A.Q.
+        .footer-el
+          %a(href="#") F.A.Q.
+        .footer-el
+          %a(href="#") F.A.Q.
+        .footer-el
+          %a(href="#") F.A.Q.
+
+
+
+
+
+        
+       
+  %script(src="//code.jquery.com/jquery-1.11.2.min.js")
+  %script(src="js/plugins.min.js")
+  %script(src="js/script.js")

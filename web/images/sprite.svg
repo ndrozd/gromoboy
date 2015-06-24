@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="288px" viewBox="0 0 24 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-24px-purple</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Guides-&amp;-Graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ic-24px-purple" sketch:type="MSArtboardGroup">
+            <g id="ic-content" sketch:type="MSLayerGroup">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M7,8 L21,8 L21,20 L7,20 L7,8 Z M9,10 L19,10 L19,18 L9,18 L9,10 Z" id="Rectangle-2" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+                <path d="M15,10 L17,10 L17,4 L3,4 L3,16 L9,16 L9,14 L5,14 L5,6 L15,6 L15,10 Z" id="Rectangle-2-Copy" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-cleaned-comments" sketch:type="MSLayerGroup" transform="translate(0.000000, 24.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M5,6.99188419 L5,4.99188419 L6,4.99188419 L18,4.99188419 L19,4.99188419 L19,6.99188419 L18,7 L18,18.0081158 C18,19.1082031 17.0980496,20 15.9914698,20 L8.0085302,20 C6.8992496,20 6,19.1066027 6,18.0081158 L6,6.99188419 L5,6.99188419 Z M8,6.99188419 L8,18.0081158 C8,17.9990935 8.00091359,18 8.0085302,18 L15.9914698,18 C15.9985332,18 16,17.9985467 16,18.0081158 L16,6.99188419 C16,7.00090652 15.9990864,7 15.9914698,7 L8.0085302,7 C8.00146678,7 8,7.00145328 8,6.99188419 Z M9,3 L15,3 L15,5 L9,5 L9,3 Z" id="Shape" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-blocked" sketch:type="MSLayerGroup" transform="translate(0.000000, 48.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M16.8907479,8.52346564 C17.589209,9.50428451 18,10.7041696 18,12 C18,15.3137085 15.3137085,18 12,18 C10.7041696,18 9.50428451,17.589209 8.52346564,16.8907479 L16.8907479,8.52346564 Z M15.4765344,7.10925208 C14.4957155,6.41079097 13.2958304,6 12,6 C8.6862915,6 6,8.6862915 6,12 C6,13.2958304 6.41079097,14.4957155 7.10925208,15.4765344 L15.4765344,7.10925208 Z M12,20 C7.581722,20 4,16.418278 4,12 C4,7.581722 7.581722,4 12,4 C16.418278,4 20,7.581722 20,12 C20,16.418278 16.418278,20 12,20 Z" id="Path" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-list" sketch:type="MSLayerGroup" transform="translate(0.000000, 72.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M4,5 L20,5 L20,7 L4,7 L4,5 Z M4,11 L20,11 L20,13 L4,13 L4,11 Z M4,17 L20,17 L20,19 L4,19 L4,17 Z" id="Rectangle-275" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-photos" sketch:type="MSLayerGroup" transform="translate(0.000000, 96.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M4,4 L11,4 L11,11 L4,11 L4,4 Z M13,4 L20,4 L20,11 L13,11 L13,4 Z M4,13 L11,13 L11,20 L4,20 L4,13 Z M13,13 L20,13 L20,20 L13,20 L13,13 Z M6,6 L9,6 L9,9 L6,9 L6,6 Z M15,6 L18,6 L18,9 L15,9 L15,6 Z M6,15 L9,15 L9,18 L6,18 L6,15 Z M15,15 L18,15 L18,18 L15,18 L15,15 Z" id="Rectangle-9" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-not-spam" sketch:type="MSLayerGroup" transform="translate(0.000000, 120.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M12,20 C7.581722,20 4,16.418278 4,12 C4,7.581722 7.581722,4 12,4 C16.418278,4 20,7.581722 20,12 C20,16.418278 16.418278,20 12,20 Z M12,18 C15.3137085,18 18,15.3137085 18,12 C18,8.6862915 15.3137085,6 12,6 C8.6862915,6 6,8.6862915 6,12 C6,15.3137085 8.6862915,18 12,18 Z M11,14 L13,14 L13,16 L11,16 L11,14 Z M11,8 L13,8 L13,13 L11,13 L11,8 Z" id="Shape" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-unblock" sketch:type="MSLayerGroup" transform="translate(0.000000, 144.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M11.992,4 C7.576,4 4,7.584 4,12 C4,16.416 7.576,20 11.992,20 C16.416,20 20,16.416 20,12 C20,7.584 16.416,4 11.992,4 Z M12,18 C8.685,18 6,15.315 6,12 C6,8.685 8.685,6 12,6 C15.315,6 18,8.685 18,12 C18,15.315 15.315,18 12,18 Z M15.4999756,10.2 C15.4999756,9.536 14.9639756,9 14.2999756,9 C13.6359756,9 13.0999756,9.536 13.0999756,10.2 C13.0999756,10.864 13.6359756,11.4 14.2999756,11.4 C14.9639756,11.4 15.4999756,10.864 15.4999756,10.2 Z M9.7,11.4 C10.364,11.4 10.9,10.864 10.9,10.2 C10.9,9.536 10.364,9 9.7,9 C9.036,9 8.5,9.536 8.5,10.2 C8.5,10.864 9.036,11.4 9.7,11.4 Z M15.7000489,13.1999969 L8.30004883,13.1999969 C8.8793052,14.8319969 10.3129647,15.9999969 12.0000489,15.9999969 C13.687133,15.9999969 15.1207926,14.8319969 15.7000489,13.1999969 Z" id="Shape-Copy" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-options" sketch:type="MSLayerGroup" transform="translate(0.000000, 168.000000)">
+                <rect id="Rectangle-1136" sketch:type="MSShapeGroup" x="0" y="0" width="24" height="24"></rect>
+                <path d="M6,14 C7.1045695,14 8,13.1045695 8,12 C8,10.8954305 7.1045695,10 6,10 C4.8954305,10 4,10.8954305 4,12 C4,13.1045695 4.8954305,14 6,14 Z M12,14 C13.1045695,14 14,13.1045695 14,12 C14,10.8954305 13.1045695,10 12,10 C10.8954305,10 10,10.8954305 10,12 C10,13.1045695 10.8954305,14 12,14 Z M18,14 C19.1045695,14 20,13.1045695 20,12 C20,10.8954305 19.1045695,10 18,10 C16.8954305,10 16,10.8954305 16,12 C16,13.1045695 16.8954305,14 18,14 Z" id="Oval-226" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-delete" sketch:type="MSLayerGroup" transform="translate(0.000000, 192.000000)">
+                <rect id="Rectangle-1137" sketch:type="MSShapeGroup" x="0" y="0" width="24" height="24"></rect>
+                <path d="M13.4142136,12 L17.7071068,16.2928932 L16.2928932,17.7071068 L12,13.4142136 L7.70710678,17.7071068 L6.29289322,16.2928932 L10.5857864,12 L6.29289322,7.70710678 L7.70710678,6.29289322 L12,10.5857864 L16.2928932,6.29289322 L17.7071068,7.70710678 L13.4142136,12 Z" id="Shape" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-reveal" sketch:type="MSLayerGroup" transform="translate(0.000000, 216.000000)">
+                <rect id="Rectangle-1137" sketch:type="MSShapeGroup" x="0" y="0" width="24" height="24"></rect>
+                <path d="M6.29289322,10.7071068 L11.2928932,15.7071068 L12,16.4142136 L12.7071068,15.7071068 L17.7071068,10.7071068 L16.2928932,9.29289322 L11.2928932,14.2928932 L12.7071068,14.2928932 L7.70710678,9.29289322 L6.29289322,10.7071068 L6.29289322,10.7071068 Z" id="Shape" fill="#B959E4" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-comments" sketch:type="MSLayerGroup" transform="translate(0.000000, 240.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M4.96385597,16.0210802 C4.34865155,14.9711726 4,13.7726008 4,12.5 C4,8.35786438 7.69365081,5 12.25,5 C16.8063492,5 20.5,8.35786438 20.5,12.5 C20.5,16.6421356 16.8063492,20 12.25,20 C10.7598922,20 9.3620544,19.6408594 8.15550921,19.0125988 L4.5,19.5 L4.96385597,16.0210802 Z" id="Oval-1" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="ic-close" sketch:type="MSLayerGroup" transform="translate(0.000000, 264.000000)">
+                <rect id="Rectangle-812" sketch:type="MSShapeGroup" x="0" y="0" width="24" height="24"></rect>
+                <path d="M10.4615775,11.8757911 L1.29289322,2.70710678 L2.70710678,1.29289322 L11.8757911,10.4615775 L21.0444754,1.29289322 L22.458689,2.70710678 L13.2900047,11.8757911 L22.458689,21.0444754 L21.0444754,22.458689 L11.8757911,13.2900047 L2.70710678,22.458689 L1.29289322,21.0444754 L10.4615775,11.8757911 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
