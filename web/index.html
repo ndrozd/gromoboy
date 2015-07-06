@@ -15,7 +15,7 @@
         <div class="logo"><img src="images/logo.svg" />
         </div>
         <div class="nd-right-nav">
-          <div class="one"><a href="#" class="strong uppercase">Plans</a>
+          <div class="one"><a href="#" class="strong uppercase">Plans</a><span class="muted hidden-xs">&nbsp;(trial expires in 3 days)</span>
           </div>
           <div class="one">
             <a href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
@@ -24,128 +24,810 @@
         </div>
       </div>
     </header>
-    <div class="nd-switcher-wrap can-animate active">
-      <div class="bg-accent">
-        <div class="container nd-switcher">
-          <div class="nd-switcher-label"><span class="nd-switcher-heading">Cleaner</span><span class="nd-switcher-status"><span class="on">Running</span><span class="off">Stopped</span></span>
-          </div>
-          <div class="nd-switch">
-            <label>
-              <input type="checkbox" checked="checked" />
-              <div class="nd-switch-el"></div>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="nd-switcher-group">
-        <div class="one can-animate active">
-          <div class="container">
-            <div class="nd-switcher-label"><span class="letter">S</span>
-              <div class="heading"><span>Spam filter</span>
-                <div class="sub">Removes filthy comments Does a great job always Another describtion</div>
+    <div class="gridwrap" id="content">
+      <aside class="sidebar">
+        <div class="nd-switcher-wrap can-animate active">
+          <div class="bg-accent">
+            <div class="container nd-switcher">
+              <div class="nd-switcher-label"><span class="nd-switcher-heading">Cleaner</span><span class="nd-switcher-status"><span class="on">Running</span><span class="off">Stopped</span></span>
+              </div>
+              <div class="nd-switch">
+                <label>
+                  <input type="checkbox" checked="checked" />
+                  <div class="nd-switch-el"></div>
+                </label>
               </div>
             </div>
-            <div class="nd-switch small colored">
-              <label>
-                <input type="checkbox" checked="checked" />
-                <div class="nd-switch-el"></div>
-              </label>
-            </div>
           </div>
-        </div>
-        <div class="one can-animate unactive">
-          <div class="container">
-            <div class="nd-switcher-label"><span class="letter">F</span>
-              <div class="heading"><span>Fpam filter</span>
-              </div>
-            </div>
-            <div class="nd-switch small colored">
-              <label>
-                <input type="checkbox" />
-                <div class="nd-switch-el"></div>
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="one">
-          <div class="container">
-            <div class="nd-switcher-edit left"><a href="#">Edit</a>
-            </div>
-            <div class="nd-switcher-edit right"><a href="#">New</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="nd-switcher-wrap can-animate unactive">
-      <div class="bg-accent">
-        <div class="container nd-switcher">
-          <div class="nd-switcher-label"><span class="nd-switcher-heading">Cleaner</span><span class="nd-switcher-status"><span class="on">Running</span><span class="off">Stopped</span></span>
-          </div>
-          <div class="nd-switch">
-            <label>
-              <input type="checkbox" />
-              <div class="nd-switch-el"></div>
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="nd-machinelearn js-toggleactive">
-      <div class="container"><img src="images/robot.svg" />
-        <div class="nd-machinelearn-descr">
-          <div class="heading">Machine learning</div>
-          <div class="des">We have developed a unique system which lets our robots learn what to clean while working</div>
-        </div>
-        <div class="icon purple ic-reveal"></div>
-      </div>
-    </div>
-    <div class="white-cont">
-      <div class="nd-tabs">
-        <div class="nd-tabs-control">
-          <div class="nd-tabs-control-one active">
-            <div class="icon purple ic-content"></div><span>Content</span>
-          </div>
-          <div class="nd-tabs-control-one">
-            <div class="icon purple ic-cleaned"></div><span>Cleaned comments</span>
-          </div>
-          <div class="nd-tabs-control-one">
-            <div class="icon purple ic-blocked"></div><span>Blocked users</span>
-          </div>
-          <div class="bord-bottom"></div>
-        </div>
-        <div class="nd-tabs-content">
-          <div class="nd-tabs-content-one">
-            <div class="container">
-              <div class="nd-tabs">
-                <div class="nd-tabs-control">
-                  <div class="nd-tabs-control-one active">
-                    <div class="icon purple ic-list"></div>
+          <div class="nd-switcher-group">
+            <div class="one can-animate active">
+              <div class="container">
+                <div class="nd-switcher-label"><span class="letter">S</span>
+                  <div class="heading"><span>Spam filter</span>
+                    <div class="sub">Removes filthy comments Does a great job always Another describtion</div>
                   </div>
-                  <div class="nd-tabs-control-one">
-                    <div class="icon purple ic-photos"></div>
-                  </div>
-                  <div class="bord-bottom"></div>
+                </div>
+                <div class="nd-switch small colored">
+                  <label>
+                    <input type="checkbox" checked="checked" />
+                    <div class="nd-switch-el"></div>
+                  </label>
                 </div>
               </div>
-              <div class="nd-tabs-content">
-                <div class="nd-tabs-content-one">
-                  <div class="nd-listimages">
-                    <a href="#" class="nd-listimages-one"><img src="http://placehold.it/290" />
-                      <div class="comments-count">
-                        <div class="icon purple ic-comments"></div><span>9</span>
+            </div>
+            <div class="one can-animate unactive">
+              <div class="container">
+                <div class="nd-switcher-label"><span class="letter green">F</span>
+                  <div class="heading"><span>Fpam filter</span>
+                  </div>
+                </div>
+                <div class="nd-switch small colored sw-green">
+                  <label>
+                    <input type="checkbox" />
+                    <div class="nd-switch-el"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="one">
+              <div class="container">
+                <div class="nd-switcher-edit left"><a href="#">Edit</a>
+                </div>
+                <div class="nd-switcher-edit right"><a href="#">New</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nd-switcher-wrap can-animate unactive">
+          <div class="bg-accent">
+            <div class="container nd-switcher">
+              <div class="nd-switcher-label"><span class="nd-switcher-heading">Cleaner</span><span class="nd-switcher-status"><span class="on">Running</span><span class="off">Stopped</span></span>
+              </div>
+              <div class="nd-switch">
+                <label>
+                  <input type="checkbox" />
+                  <div class="nd-switch-el"></div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nd-machinelearn js-toggleactive">
+          <div class="container"><img src="images/robot.svg" />
+            <div class="nd-machinelearn-descr">
+              <div class="heading">Machine learning</div>
+              <div class="des">We have developed a unique system which lets our robots learn what to clean while working</div>
+            </div>
+            <div class="icon purple ic-reveal"></div>
+          </div>
+        </div>
+        <div class="nd-email-request">
+          <div class="icon purple ic-delete colorless"></div>
+          <div class="container">
+            <div class="nd-accent">Confirm your account</div>
+            <p>Please confirm your account by writing your email in the form below.</p>
+            <div class="email-input-wrap">
+              <form>
+                <input type="text" placeholder="Your email" required="required" />
+                <input type="submit" class="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="white-cont main-part">
+        <div class="nd-tabs">
+          <div class="nd-tabs-control sm-full">
+            <div data-tab="content" class="nd-tabs-control-one active">
+              <div class="icon purple ic-content"></div><span>Content</span>
+            </div>
+            <div data-tab="cleaned" class="nd-tabs-control-one">
+              <div class="icon purple ic-cleaned"></div><span>Cleaned comments</span>
+            </div>
+            <div data-tab="blocked" class="nd-tabs-control-one">
+              <div class="icon purple ic-blocked"></div><span>Blocked users</span>
+            </div>
+          </div>
+          <div class="bord-bottom"></div>
+          <div class="nd-tabs-content desktop-margintop magictime">
+            <div data-tab="content" class="nd-tabs-content-one active">
+              <div class="container">
+                <div class="nd-tabs">
+                  <div class="nd-tabs-control">
+                    <div data-tab="list" class="nd-tabs-control-one">
+                      <div class="icon purple ic-list"></div>
+                    </div>
+                    <div data-tab="photos" class="nd-tabs-control-one active">
+                      <div class="icon purple ic-photos"></div>
+                    </div>
+                    <div class="bord-bottom"></div>
+                  </div>
+                  <div class="nd-tabs-content height-scroll magictime">
+                    <div data-tab="photos" class="nd-tabs-content-one active">
+                      <div class="nd-listimages">
+                        <a href="#" class="nd-listimages-one"><img src="https://pp.vk.me/c6048/v6048565/12496/trLkg2NQC-8.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>9</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11333308_750943671683585_1284181026_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>12</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>23</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>43</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="images/square.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>1119</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>9</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>234</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>32414</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>9</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>9</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>9</span>
+                          </div>
+                        </a>
+                        <a href="#" class="nd-listimages-one"><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg" />
+                          <div class="comments-count">
+                            <div class="icon purple ic-comments"></div><span>9</span>
+                          </div>
+                        </a>
                       </div>
-                    </a>
-                    <a href="#" class="nd-listimages-one"><img src="http://placehold.it/290" />
-                      <div class="comments-count">
-                        <div class="icon purple ic-comments"></div><span>9</span>
+                    </div>
+                    <div data-tab="list" class="nd-tabs-content-one">
+                      <div class="nd-cleaned">
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius voluptatibus, placeat commodi saepe dolorum praesentium ea quidem ratione nam aliquid quod. Dolor dolorem accusamus dolore quaerat a voluptate nam unde expedita
+                                sit. Quo veritatis vero quod non eius fugiat! Iste eveniet repellendus libero explicabo repellat alias, architecto facilis id cumque necessitatibus. Minus a facere voluptates nihil porro, quasi recusandae corporis! Animi
+                                neque consequuntur qui hic quam, possimus dignissimos voluptatem eaque ipsum veniam temporibus debitis illo, mollitia id, distinctio cupiditate adipisci repellat impedit sequi labore reiciendis? Doloremque animi, dolorum
+                                non assumenda eius quo asperiores placeat ut consequuntur, maxime. Ex, tempore.</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="images/square.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">Good!!! 😂😂😂😂😂😂😂😂😂</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">The monkey-rope is found in all whalers; but it was only in the Pequod that the. The monkey-rope is found in all whalers; but it was only in the Pequod that the.The monkey-rope is found in all whalers; but it was only in
+                                the Pequod that the.</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="images/square.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">Good!!! 😂😂😂😂😂😂😂😂😂</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">The monkey-rope is found in all whalers; but it was only in the Pequod that the. The monkey-rope is found in all whalers; but it was only in the Pequod that the.The monkey-rope is found in all whalers; but it was only in
+                                the Pequod that the.</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nd-cleaned-one">
+                          <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                            <div class="nd-cleaned-post"><img src="images/square.jpg" />
+                            </div>
+                          </div>
+                          <div class="nd-cleaned-one-details">
+                            <div class="drop-menu">
+                              <div data-hint="Clean" class="hint--top">
+                                <button class="btn rounded round">
+                                  <div class="icon purple ic-delete"></div>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="js-details">
+                              <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                              </div>
+                              <div class="text">Good!!! 😂😂😂😂😂😂😂😂😂</div>
+                            </div>
+                            <div class="nd-cleaned-one-buttons">
+                              <button class="btn rounded">Not spam</button>
+                              <button class="btn rounded">Block user</button>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </a>
-                    <a href="#" class="nd-listimages-one"><img src="http://placehold.it/290" />
-                      <div class="comments-count">
-                        <div class="icon purple ic-comments"></div><span>9</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-tab="cleaned" class="nd-tabs-content-one">
+              <div class="container">
+                <div class="nd-cleaned">
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
                       </div>
-                    </a>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius voluptatibus, placeat commodi saepe dolorum praesentium ea quidem ratione nam aliquid quod. Dolor dolorem accusamus dolore quaerat a voluptate nam unde expedita
+                          sit. Quo veritatis vero quod non eius fugiat! Iste eveniet repellendus libero explicabo repellat alias, architecto facilis id cumque necessitatibus. Minus a facere voluptates nihil porro, quasi recusandae corporis! Animi neque
+                          consequuntur qui hic quam, possimus dignissimos voluptatem eaque ipsum veniam temporibus debitis illo, mollitia id, distinctio cupiditate adipisci repellat impedit sequi labore reiciendis? Doloremque animi, dolorum non assumenda
+                          eius quo asperiores placeat ut consequuntur, maxime. Ex, tempore.</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="images/square.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">Good!!! 😂😂😂😂😂😂😂😂😂</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">The monkey-rope is found in all whalers; but it was only in the Pequod that the. The monkey-rope is found in all whalers; but it was only in the Pequod that the.The monkey-rope is found in all whalers; but it was only in the Pequod
+                          that the.</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="images/square.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">Good!!! 😂😂😂😂😂😂😂😂😂</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">The monkey-rope is found in all whalers; but it was only in the Pequod that the. The monkey-rope is found in all whalers; but it was only in the Pequod that the.The monkey-rope is found in all whalers; but it was only in the Pequod
+                          that the.</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                      <div class="nd-cleaned-post"><img src="images/square.jpg" />
+                      </div>
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-not-spam"></div><span>Not spam</span>
+                          </a>
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-blocked"></div><span>Block user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                        </div>
+                        <div class="text">Good!!! 😂😂😂😂😂😂😂😂😂</div>
+                      </div>
+                      <div class="nd-cleaned-one-buttons">
+                        <button class="btn rounded">Not spam</button>
+                        <button class="btn rounded">Block user</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-tab="blocked" class="nd-tabs-content-one">
+              <div class="container">
+                <div class="nd-cleaned">
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded">Clean user's comments</button>
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-unblock"></div><span>Unblock user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">@ndrozd</span>
+                        </div>
+                        <div class="text">
+                          <div class="muted">Blocked 2 days ago</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded">Clean user's comments</button>
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-unblock"></div><span>Unblock user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">@ndrozd</span>
+                        </div>
+                        <div class="text">
+                          <div class="muted">Blocked 2 days ago</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nd-cleaned-one">
+                    <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+                    </div>
+                    <div class="nd-cleaned-one-details">
+                      <div class="drop-menu">
+                        <div class="drop-fade"></div>
+                        <div class="drop-trigger">
+                          <button class="btn rounded">Clean user's comments</button>
+                          <button class="btn rounded round">
+                            <div class="icon purple ic-options"></div>
+                          </button>
+                        </div>
+                        <div class="drop-content">
+                          <a href="#" class="drop-content-one">
+                            <div class="icon purple ic-unblock"></div><span>Unblock user</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="js-details">
+                        <div><span class="name">@ndrozd</span>
+                        </div>
+                        <div class="text">
+                          <div class="muted">Blocked 2 days ago</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -156,16 +838,80 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <div class="footer-el"><a href="#">F.A.Q.</a>
+        <div class="footer-el"><a href="#">About</a>
         </div>
-        <div class="footer-el"><a href="#">F.A.Q.</a>
+        <div class="footer-el"><a href="#">Contacts</a>
         </div>
-        <div class="footer-el"><a href="#">F.A.Q.</a>
+        <div class="footer-el"><a href="#">FAQ</a>
         </div>
-        <div class="footer-el"><a href="#">F.A.Q.</a>
+        <div class="footer-el"><img src="images/paypal.svg" />
         </div>
       </div>
     </footer>
+    <div class="popups">
+      <div class="popups-fade"></div>
+      <div class="popup-one popup-photo">
+        <div class="popup-image"><img src="images/square.jpg" />
+        </div>
+        <div class="nd-cleaned">
+          <div class="comments-count"><span>123 comments</span>
+          </div>
+          <div class="nd-cleaned-one">
+            <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+              <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg" />
+              </div>
+            </div>
+            <div class="nd-cleaned-one-details">
+              <div class="drop-menu">
+                <div data-hint="Clean" class="hint--top">
+                  <button class="btn rounded round">
+                    <div class="icon purple ic-delete"></div>
+                  </button>
+                </div>
+              </div>
+              <div class="js-details">
+                <div><span class="name">Nikita Drozd</span><span class="date">2 days ago</span>
+                </div>
+                <div class="text">The 😂-rope is found in all whalers; but it was only in the Pequod that the.</div>
+              </div>
+              <div class="nd-cleaned-one-buttons">
+                <button class="btn rounded">Clean</button>
+                <button class="btn rounded">Block user</button>
+              </div>
+            </div>
+          </div>
+          <div class="nd-cleaned-one">
+            <div href="#" class="nd-roundimage-wrap"><img width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg" />
+              <div class="nd-cleaned-post"><img src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg" />
+              </div>
+            </div>
+            <div class="nd-cleaned-one-details">
+              <div class="drop-menu">
+                <div data-hint="Clean" class="hint--top">
+                  <button class="btn rounded round">
+                    <div class="icon purple ic-delete"></div>
+                  </button>
+                </div>
+              </div>
+              <div class="js-details">
+                <div><span class="name">Gloria Alvarado</span><span class="date">2 days ago</span>
+                </div>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius voluptatibus, placeat commodi saepe dolorum praesentium ea quidem ratione nam aliquid quod. Dolor dolorem accusamus dolore quaerat a voluptate nam unde expedita sit. Quo
+                  veritatis vero quod non eius fugiat! Iste eveniet repellendus libero explicabo repellat alias, architecto facilis id cumque necessitatibus. Minus a facere voluptates nihil porro, quasi recusandae corporis! Animi neque consequuntur qui
+                  hic quam, possimus dignissimos voluptatem eaque ipsum veniam temporibus debitis illo, mollitia id, distinctio cupiditate adipisci repellat impedit sequi labore reiciendis? Doloremque animi, dolorum non assumenda eius quo asperiores placeat
+                  ut consequuntur, maxime. Ex, tempore.</div>
+              </div>
+              <div class="nd-cleaned-one-buttons">
+                <button class="btn rounded">Clean</button>
+                <button class="btn rounded">Block user</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nd-message"><span>The comment has been cleaned.</span><a href="#" class="close">&#32;UNDO</a>
+    </div>
   </body>
   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="js/plugins.min.js"></script>

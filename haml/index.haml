@@ -15,128 +15,732 @@
         .nd-right-nav
           .one
             %a.strong.uppercase(href="#") Plans
+            %span.muted.hidden-xs &nbsp;(trial expires in 3 days)
           .one
             %a.nd-roundimage-wrap(href="#")
               %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
-    .nd-switcher-wrap.can-animate.active
-      .bg-accent
-        .container.nd-switcher
-          .nd-switcher-label
-            %span.nd-switcher-heading Cleaner
-            %span.nd-switcher-status
-              %span.on Running
-              %span.off Stopped
-          .nd-switch
-            %label
-              %input(type="checkbox" checked="checked")
-              %div.nd-switch-el
-      .nd-switcher-group
-        .one.can-animate.active
-          .container
-            .nd-switcher-label
-              %span.letter S
-              .heading 
-                %span Spam filter
-                .sub Removes filthy comments Does a great job always Another describtion
-            .nd-switch.small.colored
-              %label
-                %input(type="checkbox" checked="checked")
-                %div.nd-switch-el
-        .one.can-animate.unactive
-          .container
-            .nd-switcher-label
-              %span.letter F
-              .heading 
-                %span Fpam filter
-            .nd-switch.small.colored
-              %label
-                %input(type="checkbox")
-                %div.nd-switch-el
-        .one
-          .container
-            .nd-switcher-edit.left
-              %a(href="#") Edit
-            .nd-switcher-edit.right
-              %a(href="#") New
+    #content.gridwrap
+      %aside.sidebar
+        .nd-switcher-wrap.can-animate.active
+          .bg-accent
+            .container.nd-switcher
+              .nd-switcher-label
+                %span.nd-switcher-heading Cleaner
+                %span.nd-switcher-status
+                  %span.on Running
+                  %span.off Stopped
+              .nd-switch
+                %label
+                  %input(type="checkbox" checked="checked")
+                  %div.nd-switch-el
+          .nd-switcher-group
+            .one.can-animate.active
+              .container
+                .nd-switcher-label
+                  %span.letter S
+                  .heading 
+                    %span Spam filter
+                    .sub Removes filthy comments Does a great job always Another describtion
+                .nd-switch.small.colored
+                  %label
+                    %input(type="checkbox" checked="checked")
+                    %div.nd-switch-el
+            .one.can-animate.unactive
+              .container
+                .nd-switcher-label
+                  %span.letter.green F
+                  .heading 
+                    %span Fpam filter
+                .nd-switch.small.colored.sw-green
+                  %label
+                    %input(type="checkbox")
+                    %div.nd-switch-el
+            .one
+              .container
+                .nd-switcher-edit.left
+                  %a(href="#") Edit
+                .nd-switcher-edit.right
+                  %a(href="#") New
 
-    .nd-switcher-wrap.can-animate.unactive
-      .bg-accent
-        .container.nd-switcher
-          .nd-switcher-label
-            %span.nd-switcher-heading Cleaner
-            %span.nd-switcher-status
-              %span.on Running
-              %span.off Stopped
-          .nd-switch
-            %label
-              %input(type="checkbox")
-              %div.nd-switch-el
+        .nd-switcher-wrap.can-animate.unactive
+          .bg-accent
+            .container.nd-switcher
+              .nd-switcher-label
+                %span.nd-switcher-heading Cleaner
+                %span.nd-switcher-status
+                  %span.on Running
+                  %span.off Stopped
+              .nd-switch
+                %label
+                  %input(type="checkbox")
+                  %div.nd-switch-el
 
-    .nd-machinelearn.js-toggleactive
-      .container
-        %img(src="images/robot.svg")
-        .nd-machinelearn-descr
-          .heading Machine learning
-          .des We have developed a unique system which lets our robots learn what to clean while working
-        .icon.purple.ic-reveal
-    .white-cont
-      .nd-tabs
-        .nd-tabs-control
-          .nd-tabs-control-one.active
-            .icon.purple.ic-content
-            %span Content
-          .nd-tabs-control-one
-            .icon.purple.ic-cleaned
-            %span Cleaned comments
-          .nd-tabs-control-one
-            .icon.purple.ic-blocked
-            %span Blocked users
+        .nd-machinelearn.js-toggleactive
+          .container
+            %img(src="images/robot.svg")
+            .nd-machinelearn-descr
+              .heading Machine learning
+              .des We have developed a unique system which lets our robots learn what to clean while working
+            .icon.purple.ic-reveal
+
+        .nd-email-request
+          .icon.purple.ic-delete.colorless
+          .container
+            .nd-accent Confirm your account
+            %p Please confirm your account by writing your email in the form below.
+            .email-input-wrap
+              %form
+                %input(type="text" placeholder="Your email" required="required")
+                %input.submit(type="submit")
+      .white-cont.main-part
+        .nd-tabs
+          .nd-tabs-control.sm-full
+            .nd-tabs-control-one.active(data-tab="content")
+              .icon.purple.ic-content
+              %span Content
+            .nd-tabs-control-one(data-tab="cleaned")
+              .icon.purple.ic-cleaned
+              %span Cleaned comments
+            .nd-tabs-control-one(data-tab="blocked")
+              .icon.purple.ic-blocked
+              %span Blocked users
           .bord-bottom
-        .nd-tabs-content
-          .nd-tabs-content-one
-            .container
-              .nd-tabs
-                .nd-tabs-control
-                  .nd-tabs-control-one.active
-                    .icon.purple.ic-list
-                  .nd-tabs-control-one
-                    .icon.purple.ic-photos
-                  .bord-bottom
-              .nd-tabs-content
-                .nd-tabs-content-one
-                  .nd-listimages
-                    %a.nd-listimages-one(href="#")
-                      %img(src="http://placehold.it/290")
-                      .comments-count
-                        .icon.purple.ic-comments
-                        %span 9 
-                    %a.nd-listimages-one(href="#")
-                      %img(src="http://placehold.it/290")
-                      .comments-count
-                        .icon.purple.ic-comments
-                        %span 9 
-                    %a.nd-listimages-one(href="#")
-                      %img(src="http://placehold.it/290")
-                      .comments-count
-                        .icon.purple.ic-comments
-                        %span 9 
+          .nd-tabs-content.desktop-margintop.magictime
+            .nd-tabs-content-one.active(data-tab="content")
+              .container
+                .nd-tabs
+                  .nd-tabs-control
+                    .nd-tabs-control-one(data-tab="list")
+                      .icon.purple.ic-list
+                    .nd-tabs-control-one.active(data-tab="photos")
+                      .icon.purple.ic-photos
+                    .bord-bottom
+                  .nd-tabs-content.height-scroll.magictime
+                    .nd-tabs-content-one.active(data-tab="photos")
+                      .nd-listimages
+                        %a.nd-listimages-one(href="#")
+                          %img( src="https://pp.vk.me/c6048/v6048565/12496/trLkg2NQC-8.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 9 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11333308_750943671683585_1284181026_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 12
+                        %a.nd-listimages-one(href="#")
+                          %img( src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 23 
+                        %a.nd-listimages-one(href="#")
+                          %img( src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 43
+                        %a.nd-listimages-one(href="#")
+                          %img( src="images/square.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 1119 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 9 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 234
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 32414 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 9 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 9 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 9 
+                        %a.nd-listimages-one(href="#")
+                          %img(src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11325775_1465828760376663_504751741_n.jpg")
+                          .comments-count
+                            .icon.purple.ic-comments
+                            %span 9 
+
+                    .nd-tabs-content-one(data-tab="list")
+                      .nd-cleaned
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+
+                            .js-details
+                              %div
+                                %span.name Nikita Drozd
+                                %span.date 2 days ago
+                              .text
+                                The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+                            .js-details
+                              %div
+                                %span.name Gloria Alvarado
+                                %span.date 2 days ago
+                              .text
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius voluptatibus, placeat commodi saepe dolorum praesentium ea quidem ratione nam aliquid quod. Dolor dolorem accusamus dolore quaerat a voluptate nam unde expedita sit. Quo veritatis vero quod non eius fugiat! Iste eveniet repellendus libero explicabo repellat alias, architecto facilis id cumque necessitatibus. Minus a facere voluptates nihil porro, quasi recusandae corporis! Animi neque consequuntur qui hic quam, possimus dignissimos voluptatem eaque ipsum veniam temporibus debitis illo, mollitia id, distinctio cupiditate adipisci repellat impedit sequi labore reiciendis? Doloremque animi, dolorum non assumenda eius quo asperiores placeat ut consequuntur, maxime. Ex, tempore.
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="images/square.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+                            .js-details
+                              %div
+                                %span.name Gloria Alvarado
+                                %span.date 2 days ago
+                              .text
+                                Good!!! 😂😂😂😂😂😂😂😂😂
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+
+                            .js-details
+                              %div
+                                %span.name Nikita Drozd
+                                %span.date 2 days ago
+                              .text
+                                The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+                            .js-details
+                              %div
+                                %span.name Gloria Alvarado
+                                %span.date 2 days ago
+                              .text
+                                The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                                 The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                                The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="images/square.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+                            .js-details
+                              %div
+                                %span.name Gloria Alvarado
+                                %span.date 2 days ago
+                              .text
+                                Good!!! 😂😂😂😂😂😂😂😂😂
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+
+                            .js-details
+                              %div
+                                %span.name Nikita Drozd
+                                %span.date 2 days ago
+                              .text
+                                The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+                            .js-details
+                              %div
+                                %span.name Gloria Alvarado
+                                %span.date 2 days ago
+                              .text
+                                The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                                 The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                                The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+                        .nd-cleaned-one
+                          .nd-roundimage-wrap(href="#")
+                            %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                            .nd-cleaned-post
+                              %img(src="images/square.jpg")
+                          .nd-cleaned-one-details
+                            .drop-menu
+                              .hint--top( data-hint="Clean")
+                                %button.btn.rounded.round
+                                  .icon.purple.ic-delete
+                            .js-details
+                              %div
+                                %span.name Gloria Alvarado
+                                %span.date 2 days ago
+                              .text
+                                Good!!! 😂😂😂😂😂😂😂😂😂
+                            .nd-cleaned-one-buttons
+                              %button.btn.rounded Not spam
+                              %button.btn.rounded Block user
+            .nd-tabs-content-one(data-tab="cleaned")
+              .container
+                .nd-cleaned
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+
+                      .js-details
+                        %div
+                          %span.name Nikita Drozd
+                          %span.date 2 days ago
+                        .text
+                          The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+                      .js-details
+                        %div
+                          %span.name Gloria Alvarado
+                          %span.date 2 days ago
+                        .text
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius voluptatibus, placeat commodi saepe dolorum praesentium ea quidem ratione nam aliquid quod. Dolor dolorem accusamus dolore quaerat a voluptate nam unde expedita sit. Quo veritatis vero quod non eius fugiat! Iste eveniet repellendus libero explicabo repellat alias, architecto facilis id cumque necessitatibus. Minus a facere voluptates nihil porro, quasi recusandae corporis! Animi neque consequuntur qui hic quam, possimus dignissimos voluptatem eaque ipsum veniam temporibus debitis illo, mollitia id, distinctio cupiditate adipisci repellat impedit sequi labore reiciendis? Doloremque animi, dolorum non assumenda eius quo asperiores placeat ut consequuntur, maxime. Ex, tempore.
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="images/square.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+                      .js-details
+                        %div
+                          %span.name Gloria Alvarado
+                          %span.date 2 days ago
+                        .text
+                          Good!!! 😂😂😂😂😂😂😂😂😂
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+
+                      .js-details
+                        %div
+                          %span.name Nikita Drozd
+                          %span.date 2 days ago
+                        .text
+                          The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+                      .js-details
+                        %div
+                          %span.name Gloria Alvarado
+                          %span.date 2 days ago
+                        .text
+                          The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                           The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                          The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="images/square.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+                      .js-details
+                        %div
+                          %span.name Gloria Alvarado
+                          %span.date 2 days ago
+                        .text
+                          Good!!! 😂😂😂😂😂😂😂😂😂
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+
+                      .js-details
+                        %div
+                          %span.name Nikita Drozd
+                          %span.date 2 days ago
+                        .text
+                          The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+                      .js-details
+                        %div
+                          %span.name Gloria Alvarado
+                          %span.date 2 days ago
+                        .text
+                          The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                           The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                          The monkey-rope is found in all whalers; but it was only in the Pequod that the.
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                      .nd-cleaned-post
+                        %img(src="images/square.jpg")
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-not-spam
+                            %span Not spam
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-blocked
+                            %span Block user
+                      .js-details
+                        %div
+                          %span.name Gloria Alvarado
+                          %span.date 2 days ago
+                        .text
+                          Good!!! 😂😂😂😂😂😂😂😂😂
+                      .nd-cleaned-one-buttons
+                        %button.btn.rounded Not spam
+                        %button.btn.rounded Block user
+            .nd-tabs-content-one(data-tab="blocked")
+              .container
+                .nd-cleaned
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded Clean user's comments
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-unblock
+                            %span Unblock user
+
+                      .js-details
+                        %div
+                          %span.name @ndrozd
+                        .text
+                          .muted Blocked 2 days ago
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded Clean user's comments
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-unblock
+                            %span Unblock user
+
+                      .js-details
+                        %div
+                          %span.name @ndrozd
+                        .text
+                          .muted Blocked 2 days ago
+                  .nd-cleaned-one
+                    .nd-roundimage-wrap(href="#")
+                      %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+                    .nd-cleaned-one-details
+                      .drop-menu
+                        .drop-fade
+                        .drop-trigger
+                          %button.btn.rounded Clean user's comments
+                          %button.btn.rounded.round
+                            .icon.purple.ic-options
+                        .drop-content
+                          %a.drop-content-one(href="#")
+                            .icon.purple.ic-unblock
+                            %span Unblock user
+
+                      .js-details
+                        %div
+                          %span.name @ndrozd
+                        .text
+                          .muted Blocked 2 days ago
+                  
+
+    
+
     %footer.footer
       .container
         .footer-el
-          %a(href="#") F.A.Q.
+          %a(href="#") About
         .footer-el
-          %a(href="#") F.A.Q.
+          %a(href="#") Contacts
         .footer-el
-          %a(href="#") F.A.Q.
+          %a(href="#") FAQ
         .footer-el
-          %a(href="#") F.A.Q.
+          %img(src="images/paypal.svg")
+    .popups
+      .popups-fade
+      .popup-one.popup-photo
+        .popup-image
+          %img(src="images/square.jpg")
+        .nd-cleaned
+          .comments-count
+            %span 123 comments
+          .nd-cleaned-one
+            .nd-roundimage-wrap(href="#")
+              %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+              .nd-cleaned-post
+                %img(src="https://pp.vk.me/c625618/v625618565/37729/2YrxnaN4dNg.jpg")
+            .nd-cleaned-one-details
+              .drop-menu
+                .hint--top( data-hint="Clean")
+                  %button.btn.rounded.round
+                    .icon.purple.ic-delete
+
+              .js-details
+                %div
+                  %span.name Nikita Drozd
+                  %span.date 2 days ago
+                .text
+                  The 😂-rope is found in all whalers; but it was only in the Pequod that the.
+              .nd-cleaned-one-buttons
+                %button.btn.rounded Clean
+                %button.btn.rounded Block user
+          .nd-cleaned-one
+            .nd-roundimage-wrap(href="#")
+              %img(width="50" heigth="50" src="https://pp.vk.me/c620226/v620226565/2af2/YyPefK3nt7k.jpg")/
+              .nd-cleaned-post
+                %img(src="https://pp.vk.me/c625618/v625618565/37771/QszaMfxEFqw.jpg")
+            .nd-cleaned-one-details
+              .drop-menu
+                .hint--top( data-hint="Clean")
+                  %button.btn.rounded.round
+                    .icon.purple.ic-delete
+              .js-details
+                %div
+                  %span.name Gloria Alvarado
+                  %span.date 2 days ago
+                .text
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius voluptatibus, placeat commodi saepe dolorum praesentium ea quidem ratione nam aliquid quod. Dolor dolorem accusamus dolore quaerat a voluptate nam unde expedita sit. Quo veritatis vero quod non eius fugiat! Iste eveniet repellendus libero explicabo repellat alias, architecto facilis id cumque necessitatibus. Minus a facere voluptates nihil porro, quasi recusandae corporis! Animi neque consequuntur qui hic quam, possimus dignissimos voluptatem eaque ipsum veniam temporibus debitis illo, mollitia id, distinctio cupiditate adipisci repellat impedit sequi labore reiciendis? Doloremque animi, dolorum non assumenda eius quo asperiores placeat ut consequuntur, maxime. Ex, tempore.
+              .nd-cleaned-one-buttons
+                %button.btn.rounded Clean
+                %button.btn.rounded Block user
+    .nd-message
+      %span The comment has been cleaned.
+      %a.close(href="#") &#32;UNDO
 
 
-
-
-
-        
-       
   %script(src="//code.jquery.com/jquery-1.11.2.min.js")
   %script(src="js/plugins.min.js")
   %script(src="js/script.js")
