@@ -35,7 +35,7 @@ $(document).ready(function($) {
 		// ellipsisUpdate();
 		
 	});
-	$("body").on('click', '.drop-trigger .round, .drop-fade', function(event) {
+	$("body").on('click', '.drop-trigger .round, .drop-trigger img, .drop-fade', function(event) {
 		event.preventDefault();
 		$(this).parents(".drop-menu").toggleClass('active');
 	});
