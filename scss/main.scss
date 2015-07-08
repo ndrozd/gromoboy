@@ -1109,7 +1109,7 @@ h2 {
     z-index: 9999;
     // left: 10px;
     right: 10px;
-    max-width: 300px;
+    max-width: 280px;
     line-height: 23px;
     padding: 27px 19px 20px;
     color: white;
@@ -1147,11 +1147,14 @@ h2 {
 }
 
 .nd-switcher-group {
-  .nd-guide {
-    margin-top: -10px;
+  opacity: 0.999;
+  
+}
+.second {
+  &.nd-guide {
+    margin-top: -10px !important; 
   }
 }
-
 @media only screen and (#{$tabletMin}){
 
   .main-part {
@@ -1347,7 +1350,8 @@ h2 {
     position: fixed;
     top: 80px;
     bottom: 60px;
-    overflow: scroll;
+    // overflow: scroll;
+    z-index: 999;
   }
   .nd-machinelearn-descr {
     margin-top: 8px;
@@ -1391,7 +1395,7 @@ h2 {
     position: fixed;
     // width: #{calc(100% - 362px)};
     width: 638px;
-    z-index: 999;
+    z-index: 99;
     background: white;
     &:after {
       width: 100%;
@@ -1567,46 +1571,25 @@ h2 {
       color: rgba(255,255,255,.6);
     }
     .nd-guide {
-      position: absolute;
-      background: $purple;
-      top: 100%;
-      margin-top: 10px;
+      right: auto;
+      left: 315px;
       z-index: 9999;
-      // left: 10px;
-      right: 10px;
-      max-width: 300px;
-      line-height: 23px;
-      padding: 27px 19px 20px;
-      color: white;
-      /* BG: */
-      box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.15);
-      /* Turn on the Cleaner: */
-      &-head {
-        font-weight: bold;
-        font-size: 16px;
-        color: #FFFFFF;
-        line-height: 23px;
-      }
+      width: 300px;
+      top: 10px;
+      margin-top: 0;
       &:after {
         content: '';
         position: absolute;
         background: transparent;
         border: 6px solid transparent;
         z-index: 1000001;
-        top: -12px;
-        right: 13px;
-        border-bottom-color: $purple;
-        z-index: -2;
+        right: 100%;
+        top: 13px;
+        border-right-color: $purple;
+        // z-index: -2;
       }
-    }
-    .btn {
-      background: transparent;
-      margin-top: 15px;
-      color: white;
-      border: 1px solid rgba(255,255,255,0.40);
-      border-radius: 40px;
-      &:hover {
-        border-color: rgba(255,255,255,1);
+      &.second {
+        top: 20px
       }
     }
   }
@@ -1618,10 +1601,10 @@ h2 {
   }
   footer.footer {
     margin-left: -560px;
-    width: 320px;
+    width: 300px;
   }
   .sidebar {
-    width: 320px;
+    width: 300px;
   }
   .container {
     max-width: 1160px; 
@@ -1631,13 +1614,13 @@ h2 {
     // width: 24%;
   }
   .main-part {
-    margin-left: 340px;
+    margin-left: 320px;
   }
   .gridwrap {
     max-width: 1160px;
   }
   .sm-full {
-    width: 778px;
+    width: 798px;
   }
   .popup-photo {
     width: 1100px;

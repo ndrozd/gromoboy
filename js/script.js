@@ -22,6 +22,14 @@ $(document).ready(function($) {
 		event.preventDefault();
 		$(this).parents('.nd-message').remove();
 	});
+	$(".nd-guide").on('click', '.btn', function(event) {
+		event.preventDefault();
+		$(this).parents(".nd-guide").hide();
+	});
+	$(".nd-guide.first").on('click', '.btn', function(event) {
+		event.preventDefault();
+		$(".nd-guide.second").show();
+	});
 	$("body").on('click', '.nd-cleaned-post, .nd-listimages-one', function(event) {
 		event.preventDefault();
 		$("body").addClass('popups-active');

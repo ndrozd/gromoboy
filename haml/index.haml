@@ -11,7 +11,8 @@
     %header.header
       .container
         .logo
-          %img(src="images/logo.svg")
+          %a(href="index.html")
+            %img(src="images/logo.svg")
         .nd-right-nav
           .one
             %a.strong.uppercase(href="#") Plans
@@ -34,11 +35,11 @@
       %aside.sidebar
         .nd-switcher-wrap.can-animate.w-guide.active
           .bg-accent.nd-guided
-            <!--.nd-guide.second
+            .nd-guide.first
               .nd-guide-head Turn on the Cleaner
               .muted 
                 To begin cleaning spam from your Instagram, please turn on the Cleaner.
-              %button.btn.rounded Got it-->
+              %button.btn.rounded Got it
             .container.nd-switcher
               .nd-switcher-label
                 %span.nd-switcher-heading Cleaner
@@ -62,11 +63,11 @@
                     %input(type="checkbox" checked="checked")
                     %div.nd-switch-el
             .one.can-animate.unactive.nd-guided
-              <!--.nd-guide.second
+              .nd-guide.second(hidden="hidden")
                 .nd-guide-head Turn on the Cleaner
                 .muted 
                   To begin cleaning spam from your Instagram, please turn on the Cleaner.
-                %button.btn.rounded Got it-->
+                %button.btn.rounded Got it
               .container
                 .nd-switcher-label
                   %span.letter.green F
