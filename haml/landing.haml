@@ -7,27 +7,172 @@
   %link(rel="stylesheet" href="css/base.css")
   %link(rel="stylesheet" href="css/style.css")
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin-ext,latin' rel='stylesheet' type='text/css'>
-  %body.bg-white
-    %header.header.unfixed.landing
+  %body.landing
+    %header.header.unfixed
       .container
         .logo.logo-wtext
           %img(src="images/logo-text.svg")
+        .logo.logo-simple
+          %img(src="images/logo.svg")
         .nd-right-nav
           .one
-            .btn.instalogin Login
+            %button.btn.purple.instalogin 
+              %img(src="images/insta.svg")
+              %span Log in
     #content
-        
+      .container
+        .tcenter
+          %h2 Gromoboy keep your Instagram clean of spam.
+          %p.plans-text
+            We have developed a unique technology which finds and removes all spam from your Instagram account. Our robots work 24 hours a day to deliver you the best possible service.
+        .nd-mobile-bafter
+          .nd-name Before
+          %img(src="images/bafter.png")
+        .nd-mobile-bafter
+          .nd-name After
+          %img(src="images/bafter2.png")
+        .last
+        .nd-tablet-bafter
+          .nd-names
+            .nd-name Before
+            .nd-name After
+          <div class="juxtapose nd-tablet-bafter">
+            <img src="images/bafter.png" />
+            <img src="images/bafter2.png" />
+          </div>
+      .nd-benefits
+        .container
+          .nd-benefits-one
+            .nd-image 
+              %img(src="images/detection.svg")
+            .nd-head Unique detection algoritms
+            .nd-desc Feature text that shows how cool our service is and things like that.
+          .nd-benefits-one
+            .nd-image 
+              %img(src="images/spam.svg")
+            .nd-head Spam filters
+            .nd-desc Feature text that shows how cool our service is and things like that.
+          .nd-benefits-one
+            .nd-image 
+              %img(src="images/manual.svg")
+            .nd-head Manual mode
+            .nd-desc Feature text that shows how cool our service is and things like that.
+      .container.section.cleaner-digits
+        .tcenter 
+          %h2 Turn on the Cleaner and see up to 97% less spam.
+          %p.plans-text
+            We have developed a unique technology which finds and removes all spam from your Instagram account. Our robots work 24 hours a day to deliver you the best possible service.
+           %button.btn.purple.instalogin 
+              %img(src="images/insta.svg")
+              %span Log in with Instagram
+        .lessspam
+          %img(src="images/lessspam.svg")
+      .bg-white.section
+        .container.tcenter 
+          %h2 Choose what types of spam to clean.
+          %p.plans-text
+            We have developed a unique technology which finds and removes all spam from your Instagram account. Our robots work 24 hours a day to deliver you the best possible service.
+          .nd-clean-types
+            .nd-cleantype-group 
+              .nd-clean-head.purple
+                CLEAN LINKS
+              .nd-clean-types-one
+                .nd-comment-block
+                  %img(src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11417457_1469158620065371_951600879_a.jpg")
+                  .nd-comment
+                    .hoursago 1h
+                    .name @justice
+                    .comment
+                      Guys check this out! 
+                      %a https://en.wikipedia.org/wiki/Marin...
+            .nd-cleantype-group 
+              .nd-clean-head.green
+                Clean flood
+              .nd-clean-types-one
+                .nd-comment-block
+                  %img(src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11417457_1469158620065371_951600879_a.jpg")
+                  .nd-comment
+                    .hoursago 1h
+                    .name @justice
+                    .comment
+                      Nice photo! 
+                      %a &#35;followforfollow 
+                      %br
+                      %a &#35;likeforlike
+            .nd-cleantype-group 
+              .nd-clean-head.blue
+                CLEAN FOREIGN SPAM
+              .nd-clean-types-one
+                .nd-comment-block
+                  %img(src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11417457_1469158620065371_951600879_a.jpg")
+                  .nd-comment
+                    .hoursago 28m
+                    .name @justice
+                    .comment
+                      Guys check this out! 
+                      %a https://en.wikipedia.org/wiki/Marin...
+            .nd-cleantype-group 
+              .nd-clean-head.red
+                CLEAN FILTHY COMMENTS
+              .nd-clean-types-one
+                .nd-comment-block
+                  %img(src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11417457_1469158620065371_951600879_a.jpg")
+                  .nd-comment
+                    .hoursago 1h
+                    .name @justice
+                    .comment
+                      Guys check this out! 
+                      %a https://en.wikipedia.org/wiki/Marin...
+      .section
+        .container.cleaner-robots
+          .tcenter 
+            %h2 Clean the spam manually if you need to.
+            %p.plans-text
+              Feature text that shows how cool our service is and things like that and here is the third line hello. Here comes the third line which also explains how spam will be cleaned.
+          .im-robots
+            %img(src="images/img-robots.svg")
+      .section.bg-purple.tcenter
+        %h2 Our stats for the last week
+        .nd-stats
+          .nd-stats-one
+            .nd-count 12,296
+            .nd-label comments cleaned
+          .nd-stats-one
+            .nd-count 1,296
+            .nd-label spammers blocked
+          .nd-stats-one
+            .nd-count 459
+            .nd-label users joined
+      .bg-white
+        .container.section.cleaner-digits.nd-gift
+          .tcenter 
+            %h2 
+              Start your 
+              %span.red week of free use&nbsp;
+              to explore Gromoboy.
+            %p.plans-text
+              Feature text that shows how cool our service is and things like that and here is the third line hello. Here comes the third line which also explains. 
+              %a(href="#prices")See prices&nbsp; 
+              after a week of free use.
+             %button.btn.purple.instalogin 
+                %img(src="images/insta.svg")
+                %span Log in with Instagram
+          .lessspam
+            %img(src="images/img-gift.svg")
 
 
     
-    .container
-      %footer.footer.normal-footer
-        .footer-el
-          %a(href="#") About
-        .footer-el
-          %a(href="#") Contacts
-        .footer-el
-          %a(href="#") FAQ
+    .bg-white
+      .container
+        %footer.footer.normal-footer
+          .footer-el
+            %a(href="/") GROMOBOY © 2015
+          .footer-el
+            %a(href="#") About
+          .footer-el
+            %a(href="#") Contacts
+          .footer-el
+            %a(href="#") FAQ
         
 
 
